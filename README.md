@@ -5,6 +5,12 @@ This is a Telegram bot agent who can help you to do Analytic Hierarchy Process(A
 You can find the telegram bot by id `@ahp_agent_bot`.
 You may just hi it and it will ask you some question to go through the analysis process.
 
+
+## Project page
+
+- [Project Home](http://blog.airic-yu.com/1989/ahp-agent-bot-telegram-bot-agent-ahp)
+- [Github](https://github.com/airicyu/ahp-agent-telebot)
+
 ------------------------
 
 ## Screenshots
