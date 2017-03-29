@@ -752,7 +752,7 @@ class IntentRankCriteria extends Intent {
                 };
                 let scaleDescription = getScaleDescriptions();
                 debugLog(`Intent IntentRankCriteria initResponse, ChatId:${chatId}, MsgId:${msgId}, ask user for criteria preference scale.`);
-                return botSendMessage(bot, chatSession, `What scale do you rank Criterion <b>'${intentContext.criteria[0]}'</b> & <b>'${intentContext.criteria[1]}'</b>?\n\n${scaleDescription}`, options);
+                return botSendMessage(bot, chatSession, `What scale do you rank Criterion <b>'${intentContext.criteria[0]}'</b> over <b>'${intentContext.criteria[1]}'</b>?\n\n${scaleDescription}`, options);
             } else {
                 let compareCriterion = intentContext.preferredCriterion === intentContext.criteria[0] ? intentContext.criteria[1] : intentContext.criteria[0];
                 chatSession.ahpContext = new AHP().import(ahpContext).rankCriteria([
